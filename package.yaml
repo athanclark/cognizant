@@ -1,6 +1,6 @@
-name:                cognizant
+name:                sustained
 version:             0.0.0
-github:              "athanclark/cognizant"
+github:              "athanclark/sustained"
 license:             BSD3
 author:              "Athan Clark"
 maintainer:          "athan.clark@gmail.com"
@@ -17,7 +17,7 @@ extra-source-files:
 # To avoid duplicated efforts in documentation and dealing with the
 # complications of embedding Haddock markup inside cabal files, it is
 # common to point users to the README.md file.
-description:         Please see the README on GitHub at <https://github.com/athanclark/cognizant#readme>
+description:         Please see the README on GitHub at <https://github.com/athanclark/sustained#readme>
 
 dependencies:
 - base >= 4.7 && < 5
@@ -34,7 +34,7 @@ executables:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - cognizant
+    - sustained
 
 tests:
   cognizant-test:
@@ -45,4 +45,4 @@ tests:
     - -rtsopts
     - -with-rtsopts=-N
     dependencies:
-    - cognizant
+    - sustained
